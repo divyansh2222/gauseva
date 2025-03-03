@@ -59,9 +59,9 @@ const AccomplishmentPage = () => {
   return (
     <div className="bg-[#F5E8DC] min-h-screen py-10 px-4 flex flex-col items-center">
        <h3 className="text-4xl  md:text-6xl font-bold text-green-700 flex items-center justify-center gap-2">
-              <img src={payment1} alt="icon" className="h-6 md:h-8" />
+              <img src={payment1} alt="icon" className="h-5 md:h-8" />
               Accomplishment
-              <img src={payment2} alt="icon" className="h-6 md:h-8" />
+              <img src={payment2} alt="icon" className="h-5 md:h-8" />
             </h3>
       
       <div className="mt-6 w-full max-w-6xl flex flex-col gap-6">
