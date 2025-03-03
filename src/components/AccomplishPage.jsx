@@ -58,10 +58,10 @@ const accomplishments = [
 const AccomplishmentPage = () => {
   return (
     <div className="bg-[#F5E8DC] min-h-screen py-10 px-4 flex flex-col items-center">
-        <h3 className="text-2xl  md:text-6xl font-bold text-green-700 flex items-center justify-center gap-2">
-              <img src={payment1} alt="icon" className="h-2 sm:h-4 md:h-8" />
+        <h3 className="text-3xl  md:text-6xl font-bold text-green-700 flex items-center justify-center gap-2">
+              <img src={payment1} alt="icon" className="h-2 sm:h-5 md:h-8" />
               Accomplishment
-              <img src={payment2} alt="icon" className="h-2 sm:h-4 md:h-8" />
+              <img src={payment2} alt="icon" className="h-2 sm:h-5 md:h-8" />
             </h3>
       
       
