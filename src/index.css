@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+    font-family:"Kaisei HarunoUmi", sans-serif;
+  }
+  #donate-btn{
+    font-family: "Inter", sans-serif;
+  }
+  #dropdown-btn{
+    font-family: "Inter", sans-serif;
+  }
+  #about-text{
+    font-family:"Kaisei HarunoUmi", sans-serif;
+  }
+  #gallery::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  #gallery {
+    scrollbar-width: none;
+  }
+  
