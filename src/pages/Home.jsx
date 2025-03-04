@@ -4,7 +4,7 @@ import About from "../components/About";
 import CardSection from "../components/CardSection";
 import KnowUs from "../components/KnowUs";
 import Gallery from "../components/Gallery";
-import Testimonials from "../components/Testimonials";
+// import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -19,7 +19,7 @@ const Home = () => {
       <CardSection/>
       <KnowUs/>
       <Gallery/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
     </div>
