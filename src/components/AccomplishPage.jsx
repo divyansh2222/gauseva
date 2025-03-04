@@ -1,6 +1,7 @@
 import React from "react";
 import payment1 from "../assets/payment1.png";
 import payment2 from "../assets/payment2.png";
+import accomplish from "../assets/accomplish.png";
 const accomplishments = [
   {
     title: "Inception",
@@ -57,13 +58,12 @@ const accomplishments = [
 
 const AccomplishmentPage = () => {
   return (
-    <div className="bg-[#F5E8DC] min-h-screen py-10 px-4 flex flex-col items-center">
-        <h3 className="text-3xl  md:text-6xl font-bold text-green-700 flex items-center justify-center gap-2">
-              <img src={payment1} alt="icon" className="h-2 sm:h-5 md:h-8" />
+    <div className="bg-[#F3D4B780] min-h-screen py-10 px-4 flex flex-col items-center">
+       <h3 className="text-2xl  md:text-6xl font-bold text-green-700 flex items-center justify-center gap-2">
+              <img src={payment1} alt="icon" className="h-2 sm:h-4 md:h-8" />
               Accomplishment
-              <img src={payment2} alt="icon" className="h-2 sm:h-5 md:h-8" />
+              <img src={payment2} alt="icon" className="h-2 sm:h-4 md:h-8" />
             </h3>
-      
       
       <div className="mt-6 w-full max-w-6xl flex flex-col gap-6">
         {accomplishments.map((item, index) => (
@@ -72,7 +72,7 @@ const AccomplishmentPage = () => {
             className="border-2 border-green-700 bg-white p-6 rounded-lg shadow-md"
           >
             <h3 className="text-lg font-bold text-green-700">
-           {item.title} <span className="text-gray-500">{item.year}</span>
+         <img src={accomplish} alt="" className="inline-block text-center h-5 mr-1"/>  {item.title} <span className="text-gray-500">{item.year}</span>
             </h3>
             <p className="text-gray-700 text-sm mt-2">{item.description}</p>
           </div>

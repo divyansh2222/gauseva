@@ -3,29 +3,29 @@ import React from "react";
 const TestimonialCard = ({ testimonial, isActive }) => {
   return (
     <div
-      className={`w-full max-w-[90%] sm:max-w-xs md:max-w-sm px-2 transition-all duration-500 ${
+      className={`w-full max-w-[80%] sm:max-w-xs md:max-w-sm px-2 transition-all duration-500 ml-8 ${
         isActive
           ? "scale-110 sm:scale-125 md:scale-135"
           : "scale-90 opacity-70"
       }`}
-      style={{ minHeight: isActive ? "28rem" : "24rem" }}
+      style={{ minHeight: isActive ? "24rem" : "26rem" }}
     >
       <div className="bg-white border border-gray-300 shadow-lg rounded-3xl overflow-hidden pt-6 flex flex-col relative">
         {/* Quote Icon */}
         <span
-          className="text-2xl sm:text-3xl md:text-4xl absolute top-2 left-2 rotate-180"
+          className="text-2xl sm:text-3xl md:text-2xl absolute md:top-4 top-2 md:left-4 left-2 rotate-x-180"
           style={{ color: `#${testimonial.color}` }}
         >
           ❝
         </span>
 
         {/* Testimonial Text */}
-        <h5 className="text-gray-700 mt-2 text-[10px] sm:text-xs md:text-sm leading-relaxed px-4 sm:px-6 md:px-8">
+        <h5 className="text-gray-700 mt-2 text-[10px] sm:text-xs md:text-xs leading-relaxed px-4 sm:px-6 md:px-8">
           {testimonial.text}
         </h5>
 
         {/* Curved Bottom Section */}
-        <div className="relative  h-32 sm:h-40 md:h-52 z-10">
+        <div className="relative  h-40 sm:h-40 md:h-52 z-10">
           <svg
             className="absolute rotate-y-180 bottom-0 left-0 w-full h-full"
             viewBox="0 0 400 100"
@@ -47,7 +47,7 @@ const TestimonialCard = ({ testimonial, isActive }) => {
           </div>
 
           {/* User Name */}
-          <h4 className="relative text-white text-xs sm:text-sm md:text-base font-semibold text-center mt-26 sm:mt-36 md:mt-36 z-50">
+          <h4 className="relative text-white text-xs sm:text-sm md:text-base font-semibold text-center mt-26 sm:mt-32 md:mt-36 z-50">
             {testimonial.name}
           </h4>
         </div>

@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Right Section (Language Selector + Donate Now) */}
         <div className="hidden md:flex md:items-center md:space-x-6">
           <LanguageSelector />
-          <button className="bg-[#138F50] text-white px-4 py-2 rounded-md">Donate Now</button>
+        <Link to="/donate"><button className="bg-[#138F50] text-white px-4 py-2 rounded-md">Donate Now</button></Link>  
         </div>
 
         {/* Hamburger Menu (Mobile) */}

@@ -9,6 +9,7 @@ import KnowUs from "./components/KnowUs";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import AccomplishmentPage from "./components/AccomplishPage";
+import DonateForm from "./components/DonateForm";
 
 function App() {
   const { t } = useTranslation();
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/accomplish" element={<AccomplishmentPage />} />
+        <Route path="/donate" element={<DonateForm/>}></Route>
       </Routes>
     </Router>
   );
