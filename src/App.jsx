@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import AccomplishmentPage from "./components/AccomplishPage";
 import DonateForm from "./components/DonateForm";
+import LanguageSelector from "./components/LanguageSelection";
 
 function App() {
   const { t } = useTranslation();
@@ -17,6 +18,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+     
       
       <Routes>
         <Route path="/" element={<Home />} />

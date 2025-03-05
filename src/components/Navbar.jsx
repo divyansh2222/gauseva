@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "./LanguageSelection";
+// import LanguageSelector from "./LanguageSelector";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -23,6 +24,7 @@ const Navbar = () => {
         {/* Right Section (Language Selector + Donate Now) */}
         <div className="hidden md:flex md:items-center md:space-x-6">
           <LanguageSelector />
+          {/* <LanguageSelector /> */}
         <Link to="/donate"><button className="bg-[#138F50] text-white px-4 py-2 rounded-md">Donate Now</button></Link>  
         </div>
 

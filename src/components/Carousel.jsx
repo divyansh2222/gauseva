@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { FaRegCircleCheck } from "react-icons/fa6";
-
+import home1 from "../assets/home1.jpeg";
+import home2 from "../assets/home2.jpeg";
+import home3 from "../assets/home3.jpeg";
 const slides = [
-  "/home1.jpeg",
-  "/home2.jpeg",
-  "/home3.jpeg",
+  home1,home2,home3
 ];
 
 const Carousel = () => {
